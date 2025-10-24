@@ -11,31 +11,31 @@ function Services() {
     <section id="services" className="min-h-screen py-12 sm:py-16 md:py-20">
       <div className="flex items-center px-4 sm:px-6">
         <div className="text-center mx-auto reveal w-full max-w-6xl">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl text-slate-200 font-semibold reveal-left">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl text-slate-200 font-semibold">
             Services
           </h1>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-5 justify-center items-stretch sm:items-center">
             <button
               onClick={() => handleButtonClick("Data Engineering")}
-              className="reveal-up px-5 py-2 mt-6 sm:mt-10 font-bold inline-block bg-slate-200 text-slate-900 rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base"
+              className="reveal px-5 py-2 mt-6 sm:mt-10 font-bold inline-block bg-slate-200 text-slate-900 rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base"
             >
               Data Engineering
             </button>
             <button
               onClick={() => handleButtonClick("Data Infrastructure")}
-              className="reveal-up px-5 py-2 mt-3 sm:mt-10 font-bold inline-block bg-slate-200 text-slate-900 rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base"
+              className="reveal px-5 py-2 mt-3 sm:mt-10 font-bold inline-block bg-slate-200 text-slate-900 rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base"
             >
               Data Infrastructure
             </button>
             <button
               onClick={() => handleButtonClick("Analytics")}
-              className="reveal-up px-5 py-2 mt-3 sm:mt-10 font-bold inline-block bg-slate-200 text-slate-900 rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base"
+              className="reveal px-5 py-2 mt-3 sm:mt-10 font-bold inline-block bg-slate-200 text-slate-900 rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base"
             >
               Analytics
             </button>
             <button
               onClick={() => handleButtonClick("Data Warehousing")}
-              className="reveal-up px-5 py-2 mt-3 sm:mt-10 font-bold inline-block bg-slate-200 text-slate-900 rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base"
+              className="reveal px-5 py-2 mt-3 sm:mt-10 font-bold inline-block bg-slate-200 text-slate-900 rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base"
             >
               Data Warehousing
             </button>
@@ -43,7 +43,7 @@ function Services() {
 
           <div className="mt-6 sm:mt-10 min-h-40 sm:min-h-32 px-2 sm:px-0">
             {clickedButton === "Data Engineering" && (
-              <div className="text-center reveal">
+              <div className="text-center fade-in ">
                 <h1 className="text-lg sm:text-xl text-slate-200 font-semibold mb-2">
                   Data Engineering
                 </h1>
@@ -55,7 +55,7 @@ function Services() {
               </div>
             )}
             {clickedButton === "Data Infrastructure" && (
-              <div className="text-center reveal">
+              <div className="text-center fade-in">
                 <h1 className="text-lg sm:text-xl text-slate-200 font-semibold mb-2">
                   Data Infrastructure
                 </h1>
@@ -67,7 +67,7 @@ function Services() {
               </div>
             )}
             {clickedButton === "Analytics" && (
-              <div className="text-center reveal">
+              <div className="text-center fade-in">
                 <h1 className="text-lg sm:text-xl text-slate-200 font-semibold mb-2">
                   Analytics
                 </h1>
@@ -79,7 +79,7 @@ function Services() {
               </div>
             )}
             {clickedButton === "Data Warehousing" && (
-              <div className="text-center reveal">
+              <div className="text-center fade-in">
                 <h1 className="text-lg sm:text-xl text-slate-200 font-semibold mb-2">
                   Data Warehousing
                 </h1>

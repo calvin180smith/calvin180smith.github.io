@@ -6,7 +6,7 @@ function Contact() {
     <section id="contact" className="">
       <div className="min-h-screen py-12 sm:py-16 md:py-20 flex items-center px-4 sm:px-6">
         <div className="text-center mx-auto max-w-4xl">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal-left">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal">
             Contact Me
           </h1>
           <div className="mt-5 text-slate-200 text-base sm:text-lg md:text-xl font-bold reveal px-4">

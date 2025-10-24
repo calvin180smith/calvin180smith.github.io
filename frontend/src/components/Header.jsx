@@ -2,14 +2,15 @@
 import React, { useState } from 'react';
 import linkedinIcon from '../assets/icons8-linkedin-50.png';
 import Resume from '../assets/pdf/cv.pdf';
+import Logo from '../assets/data-engineer.png';
 // ...existing code...
 function Header(){
   const [open, setOpen] = useState(false);
   return (
     <nav className="">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <span className="text-2xl whitespace-nowrap font-semibold text-slate-200">Calvin Smith</span>
+        <a href="main" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <span className="text-2xl whitespace-nowrap font-semibold text-slate-200"><img className="brightness-0 invert h-20 w-20" src={Logo} alt="" /></span>
         </a>
 
         {/* Mobile hamburger */}
@@ -37,7 +38,7 @@ function Header(){
             <li className="font-semibold transition hover:-translate-y-1 hover:scale-110"><a href={Resume}>Resume</a></li>
             <li className="font-semibold transition hover:-translate-y-1 hover:scale-110"><a href="#contact">Contact</a></li>
             <li className="font-semibold transition hover:-translate-y-1 hover:scale-110">
-              <a href="#"><img className='h-8 brightness-0 invert' src={linkedinIcon} alt="LinkedIn" /></a>
+              <a href="https://www.linkedin.com/in/calvin-smith-85936b162/"><img className='h-8 brightness-0 invert' src={linkedinIcon}  alt="LinkedIn" /></a>
             </li>
           </ul>
         </div>

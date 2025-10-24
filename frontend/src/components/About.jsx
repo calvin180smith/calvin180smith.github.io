@@ -5,13 +5,13 @@ function About() {
   return (
     <section id="about" className="min-h-screen py-12 sm:py-16 md:py-20">
       <div className="h-250 flex items-center px-4 sm:px-6 lg:px-8">
-        <div className="text-center mx-auto reveal">
+        <div className="text-center mx-auto">
           <img
             src={ProfileImage}
             alt="Profile"
-            className="mt-5 mb-5 rounded-xl w-64 h-auto sm:w-80 mx-auto reveal-up"
+            className="mt-5 mb-5 rounded-xl w-64 h-auto sm:w-80 mx-auto reveal"
           />
-          <h1 className="mt-6 sm:mt-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal-left px-4">
+          <h1 className="mt-6 sm:mt-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal px-4">
             About Me
           </h1>
 

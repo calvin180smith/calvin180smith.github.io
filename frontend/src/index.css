@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* #fdf8eb */
+
+@theme {
+  /* --color-background: #E0D1BF; */
+  --color-primary: #E0D1BF;
+  --font-family-sans: "Source Sans 3", "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: var(--font-family-sans);
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 3s cubic-bezier(0.22, 1, 0.36, 1); /* smooth easing */
+  }
+
+  .reveal-left {
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: all 3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal-right {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal-up {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal.show,
+  .reveal-left.show,
+  .reveal-right.show,
+  .reveal-up.show {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

@@ -3,7 +3,7 @@
 /* #fdf8eb */
 
 @theme {
-  /* --color-background: #E0D1BF; */
+  /* --color-background: #0d1b2a; */
   --color-primary: #E0D1BF;
   --font-family-sans: "Source Sans 3", "Source Sans Pro", sans-serif;
 }
@@ -17,6 +17,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+
 
 html {
   scroll-behavior: smooth;

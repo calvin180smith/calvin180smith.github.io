@@ -8,8 +8,9 @@ function Services() {
   };
 
   return (
-    <section id="services" className="min-h-screen py-12 sm:py-16 md:py-20">
-      <div className="flex items-center px-4 sm:px-6">
+
+<section id="services" className="">
+      <div className="min-h-screen py-12 sm:py-16 md:py-20 flex items-center px-4 sm:px-6">
         <div className="text-center mx-auto reveal w-full max-w-6xl">
           <h1 className="text-4xl sm:text-5xl md:text-7xl text-slate-200 font-semibold">
             Services

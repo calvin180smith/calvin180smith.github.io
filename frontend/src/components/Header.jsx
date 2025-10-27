@@ -32,13 +32,13 @@ function Header(){
         {/* Desktop menu */}
         <div className="hidden md:block">
           <ul className="flex items-center gap-6 text-slate-200">
-            <li className="font-semibold transition hover:-translate-y-1 hover:scale-110"><a href="#about">About</a></li>
-            <li className="font-semibold transition hover:-translate-y-1 hover:scale-110"><a href="#services">Services</a></li>
-            <li className="font-semibold transition hover:-translate-y-1 hover:scale-110"><a href="#platforms">Technologies</a></li>
-            <li className="font-semibold transition hover:-translate-y-1 hover:scale-110"><a href={Resume}>Resume</a></li>
-            <li className="font-semibold transition hover:-translate-y-1 hover:scale-110"><a href="#contact">Contact</a></li>
-            <li className="font-semibold transition hover:-translate-y-1 hover:scale-110">
-              <a href="https://www.linkedin.com/in/calvin-smith-85936b162/"><img className='h-8 brightness-0 invert' src={linkedinIcon}  alt="LinkedIn" /></a>
+            <li className="font-semibold hover:text-slate-400"><a href="#about">About</a></li>
+            <li className="font-semibold hover:text-slate-400"><a href="#services">Services</a></li>
+            <li className="font-semibold hover:text-slate-400"><a href="#platforms">Technologies</a></li>
+            <li className="font-semibold hover:text-slate-400"><a href={Resume}>Resume</a></li>
+            <li className="font-semibold hover:text-slate-400"><a href="#contact">Contact</a></li>
+            <li className="font-semibold hover:text-slate-400">
+              <a href="https://www.linkedin.com/in/calvin-smith-85936b162/"><img className='h-8 brightness-0 invert hover:scale-110' src={linkedinIcon}  alt="LinkedIn" /></a>
             </li>
           </ul>
         </div>

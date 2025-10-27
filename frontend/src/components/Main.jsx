@@ -1,8 +1,8 @@
 function Main() {
   return (
     <section id="main" className="">
-      <div className="h-100 min-h-screen sm:py-16 md:py-20 flex items-start md:items-center justify-center px-4">
-        <div className="text-center mx-auto md:-mt-50">
+      <div className="min-h-screen py-12 sm:py-16 md:py-20 flex items-center justify-center px-4">
+        <div className="text-center mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal">
             Calvin Smith
           </h1>

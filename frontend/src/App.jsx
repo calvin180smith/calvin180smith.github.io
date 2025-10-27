@@ -15,7 +15,9 @@ function App() {
       });
     });
 
-    const elements = document.querySelectorAll(".reveal, .reveal-left, .reveal-right, .reveal-up");
+    const elements = document.querySelectorAll(
+      ".reveal, .reveal-left, .reveal-right, .reveal-up"
+    );
     elements.forEach((el) => observer.observe(el));
 
     // Optional cleanup
@@ -23,11 +25,9 @@ function App() {
       elements.forEach((el) => observer.unobserve(el));
     };
   }, []);
-  
-
 
   return (
-    <div className="space-y-8 sm:space-y-12 md:space-y-16">
+    <div>
       <Header />
       <Main />
       <About />
@@ -38,4 +38,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

@@ -3,8 +3,8 @@ import ProfileImage from "../assets/IMG_1936.JPG";
 
 function About() {
   return (
-    <section id="about" className="min-h-screen py-12 sm:py-16 md:py-20">
-      <div className="h-250 flex items-center px-4 sm:px-6 lg:px-8">
+    <section id="about" className="">
+      <div className="min-h-screen py-12 sm:py-16 md:py-20 flex items-center px-4 sm:px-6 lg:px-8">
         <div className="text-center mx-auto">
           <img
             src={ProfileImage}
@@ -15,9 +15,10 @@ function About() {
             About Me
           </h1>
 
-          {/* <p className="text-white text-xl mt-5 reveal-right mx-auto max-w-4xl">
-              
-          </p> */}
+          <p className="mt-6 md:mt-10 text-base md:text-lg text-slate-200 mx-auto max-w-4xl px-4 reveal">
+            Hello! I'm Calvin Smith, a passionate Data Engineer that loves building scalable data solutions. I also dabble in web development and software engineering.
+            When I'm not coding, you can find me practicing martial arts, reading sci-fi novels or playing video games. 
+          </p>
         </div>
 
         {/* <div className="text-center mx-auto reveal">

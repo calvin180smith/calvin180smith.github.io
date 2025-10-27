@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Kubernetes from "../assets/kubernetes.png";
 import Airflow from "../assets/airflow.png";
 import Dbt from "../assets/dbt-logo-w.png";
@@ -6,6 +6,14 @@ import Snowflake from "../assets/snowflake-color.svg";
 import Go from "../assets/Go_Logo_Blue.png";
 import Python from "../assets/Python-logo-notext.png";
 function Platforms() {
+
+  const [clickedButton, setClickedButton] = useState("");
+
+  const handleButtonClick = (buttonName) => {
+    setClickedButton(buttonName);
+  };
+
+
   return (
     <section id="platforms" className="">
       <div className="min-h-screen py-12 sm:py-16 md:py-20 flex items-center px-4">
@@ -59,12 +67,15 @@ function Platforms() {
             Below is a list of some of the platforms, technologies, and
             programming languages I have experience with:
           </p>
-          <div className="flex flex-col md:flex-row gap-6 md:gap-10 justify-center mt-6 md:mt-10 px-4 reveal">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-10 justify-center mt-6 md:mt-10 px-4 reveal">
             <div className="text-slate-200">
-              <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
-                Data Engineering
-              </h1>
-              <ul>
+              <button onClick={() => handleButtonClick("Data Engineering")}>
+                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
+                  Data Engineering
+                </h1>
+              </button>
+              {clickedButton === "Data Engineering" && (
+              <ul className="fade-in">
                 <li>Apache Airflow</li>
                 <li>Dbt</li>
                 <li>Snowflake</li>
@@ -77,38 +88,51 @@ function Platforms() {
                 <li>Iceberg</li>
                 <li>MinIO</li>
               </ul>
+              )}
             </div>
             <div className="text-slate-200">
-              <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
-                CI/CD & Infrastructure
-              </h1>
-              <ul>
+              <button onClick={() => handleButtonClick("CI/CD & Infrastructure")}>
+                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
+                  CI/CD & Infrastructure
+                </h1>
+              </button>
+              {clickedButton === "CI/CD & Infrastructure" && (
+              <ul className="fade-in">
                 <li>Kubernetes</li>
                 <li>Azure</li>
                 <li>Docker</li>
                 <li>Git</li>
               </ul>
+              )}
             </div>
             <div className="text-slate-200">
-              <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
-                Languages
-              </h1>
-              <ul>
+              <button onClick={() => handleButtonClick("Languages")}>
+                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
+                  Languages
+                </h1>
+              </button>
+              {clickedButton === "Languages" && (
+              <ul className="fade-in">
                 <li>Python</li>
                 <li>Go</li>
                 <li>SQL</li>
                 <li>JavaScript</li>
               </ul>
+              )}
             </div>
             <div className="text-slate-200">
-              <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
-                Web Development
-              </h1>
-              <ul>
+              <button onClick={() => handleButtonClick("Web Development")}>
+                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
+                  Web Development
+                </h1>
+              </button>
+              {clickedButton === "Web Development" && (
+              <ul className="fade-in">
                 <li>Django</li>
                 <li>Express</li>
                 <li>React</li>
               </ul>
+              )}
             </div>
           </div>
         </div>

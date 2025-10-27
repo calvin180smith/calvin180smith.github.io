@@ -48,7 +48,7 @@ function Header(){
           <ul className="flex flex-col gap-3 text-slate-200">
             <li><a onClick={()=>setOpen(false)} className="block py-1" href="#about">About</a></li>
             <li><a onClick={()=>setOpen(false)} className="block py-1" href="#services">Services</a></li>
-            <li><a onClick={()=>setOpen(false)} className="block py-1" href="#platforms">Technologies</a></li>
+            <li><a onClick={()=>setOpen(false)} className="block py-1" href="#platforms">Toolbox</a></li>
             <li><a onClick={()=>setOpen(false)} className="block py-1" href={Resume}>Resume</a></li>
             <li><a onClick={()=>setOpen(false)} className="block py-1" href="#contact">Contact</a></li>
             <li>

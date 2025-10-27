@@ -34,7 +34,7 @@ function Header(){
           <ul className="flex items-center gap-6 text-slate-200">
             <li className="font-semibold hover:text-slate-400"><a href="#about">About</a></li>
             <li className="font-semibold hover:text-slate-400"><a href="#services">Services</a></li>
-            <li className="font-semibold hover:text-slate-400"><a href="#platforms">Technologies</a></li>
+            <li className="font-semibold hover:text-slate-400"><a href="#platforms">Toolbox</a></li>
             <li className="font-semibold hover:text-slate-400"><a href={Resume}>Resume</a></li>
             <li className="font-semibold hover:text-slate-400"><a href="#contact">Contact</a></li>
             <li className="font-semibold hover:text-slate-400">

@@ -50,27 +50,26 @@ function Platforms() {
               className="w-20 h-20 md:w-30 md:h-30 reveal"
             />
           </div>
-          <h1 className="mt-10 md:mt-20 text-3xl md:text-5xl text-slate-200 font-semibold reveal justify-center px-4">
-            Platforms | Technologies | Languages
+          <h1 className="mt-10 md:mt-20 text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal justify-center px-4">
+            Toolbox 
           </h1>
           <p className="mt-6 md:mt-10 text-base md:text-lg text-slate-200 mx-auto max-w-4xl px-4 reveal">
-            As a Data Engineer, I work with a variety of platforms,
-            technologies, and programming languages to build robust data
+            As a Data Engineer, I work with a variety of
+            technologies to build robust data
             solutions. The Data Engineering world is constantly evolving, and I
             stay up-to-date with the latest tools and trends to deliver
             efficient and scalable data solutions. Although I have my
             preferences, I believe it is more important to focus on principles
-            and best practices rather than being tied to specific tools or
-            technologies.
+            and best practices rather than specific technologies.
           </p>
           <p className="mt-6 md:mt-10 text-base md:text-lg text-slate-200 mx-auto max-w-4xl px-4 reveal">
             Below is a list of some of the platforms, technologies, and
-            programming languages I have experience with:
+            programming languages I use in my work:
           </p>
           <div className="flex flex-col md:flex-row gap-3 md:gap-10 justify-center mt-6 md:mt-10 px-4 reveal">
             <div className="text-slate-200">
-              <button onClick={() => handleButtonClick("Data Engineering")}>
-                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
+              <button className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-2xl reveal transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base" onClick={() => handleButtonClick("Data Engineering")}>
+                <h1 >
                   Data Engineering
                 </h1>
               </button>
@@ -92,7 +91,7 @@ function Platforms() {
             </div>
             <div className="text-slate-200">
               <button onClick={() => handleButtonClick("CI/CD & Infrastructure")}>
-                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
+                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-2xl reveal transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base">
                   CI/CD & Infrastructure
                 </h1>
               </button>
@@ -107,7 +106,7 @@ function Platforms() {
             </div>
             <div className="text-slate-200">
               <button onClick={() => handleButtonClick("Languages")}>
-                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
+                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-2xl reveal transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base">
                   Languages
                 </h1>
               </button>
@@ -122,7 +121,7 @@ function Platforms() {
             </div>
             <div className="text-slate-200">
               <button onClick={() => handleButtonClick("Web Development")}>
-                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-full reveal">
+                <h1 className="font-bold bg-slate-200 text-slate-900 p-2 mb-2 rounded-2xl reveal transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 transition-colors text-sm sm:text-base">
                   Web Development
                 </h1>
               </button>

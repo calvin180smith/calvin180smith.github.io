@@ -11,7 +11,7 @@ function About() {
             alt="Profile"
             className="mt-5 mb-5 rounded-xl w-64 h-auto sm:w-80 mx-auto reveal"
           />
-          <h1 className="mt-6 sm:mt-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal px-4">
+          <h1 className="mt-6 sm:mt-10 text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal px-4">
             About Me
           </h1>
 

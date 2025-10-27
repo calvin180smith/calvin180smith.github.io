@@ -3,7 +3,7 @@ function Main() {
     <section id="main" className="">
       <div className="min-h-screen py-12 sm:py-16 md:py-20 flex items-center justify-center px-4">
         <div className="text-center mx-auto">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold reveal">
             Calvin Smith
           </h1>
           <p className="font-light text-slate-200 text-xl sm:text-2xl md:text-3xl mt-5 reveal">

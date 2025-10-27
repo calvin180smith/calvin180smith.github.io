@@ -12,7 +12,7 @@ function Services() {
 <section id="services" className="">
       <div className="min-h-screen py-12 sm:py-16 md:py-20 flex items-center px-4 sm:px-6">
         <div className="text-center mx-auto reveal w-full max-w-6xl">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl text-slate-200 font-semibold">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-200 font-semibold">
             Services
           </h1>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-5 justify-center items-stretch sm:items-center">

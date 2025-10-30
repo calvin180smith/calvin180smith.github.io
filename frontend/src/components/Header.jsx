@@ -1,7 +1,7 @@
 // ...existing code...
 import React, { useState } from 'react';
 import linkedinIcon from '../assets/icons8-linkedin-50.png';
-import Resume from '../assets/pdf/cv.pdf';
+import Resume from '../assets/pdf/cv_2025_10_29.pdf';
 import Logo from '../assets/data-engineer.png';
 // ...existing code...
 function Header(){

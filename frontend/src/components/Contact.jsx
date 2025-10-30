@@ -10,8 +10,7 @@ function Contact() {
             Contact Me
           </h1>
           <div className="mt-5 text-slate-200 text-base sm:text-lg md:text-xl font-bold reveal px-4">
-            Feel free to reach out for collaborations, inquiries, or just to say
-            hello!
+            Feel free to reach out if you want to connect!
           </div>
           <ul className="flex flex-col mx-auto mt-5 space-y-4">
             <li className="text-slate-200 text-sm sm:text-base md:text-lg lg:text-xl font-bold reveal flex items-center justify-center gap-2 break-all px-4">
